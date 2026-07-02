@@ -11,7 +11,7 @@
     font:16px/1.65 -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Helvetica,Arial,sans-serif; }
   .wrap { max-width:720px; margin:0 auto; padding:48px 24px 80px; }
   header { display:flex; align-items:center; gap:14px; }
-  .logo { width:44px; height:44px; border-radius:11px; background:linear-gradient(160deg,#3646B8,#1A2362); }
+  .logo { width:44px; height:44px; border-radius:11px; display:block; }
   h1 { font-size:30px; letter-spacing:-0.5px; margin:24px 0 4px; }
   h2 { font-size:18px; margin:30px 0 6px; }
   .sub { color:var(--muted); margin-top:0; }
@@ -24,7 +24,7 @@
 </head>
 <body>
 <div class="wrap">
-  <header><div class="logo"></div><span style="font-weight:800;font-size:18px;">Passportr</span></header>
+  <header><svg class="logo" viewBox="0 0 1024 1024" xmlns="http://www.w3.org/2000/svg" aria-hidden="true"><defs><linearGradient id="lg" x1="0" y1="0" x2="1024" y2="1024" gradientUnits="userSpaceOnUse"><stop offset="0%" stop-color="#4C5BE0"/><stop offset="52%" stop-color="#3443A3"/><stop offset="100%" stop-color="#1C2566"/></linearGradient></defs><rect width="1024" height="1024" fill="url(#lg)"/><g fill="none" stroke="#fff" stroke-width="58" stroke-linecap="round" stroke-linejoin="round"><path d="M166,316 L166,166 L316,166"/><path d="M708,166 L858,166 L858,316"/><path d="M166,708 L166,858 L316,858"/><path d="M708,858 L858,858 L858,708"/></g><circle cx="512" cy="418" r="128" fill="#fff"/><path d="M317,812 C317,626 402,586 512,586 C622,586 707,626 707,812 Z" fill="#fff"/></svg><span style="font-weight:800;font-size:18px;">Passportr</span></header>
   <h1>Support</h1>
   <p class="sub">Need a hand? We're happy to help.</p>
 
